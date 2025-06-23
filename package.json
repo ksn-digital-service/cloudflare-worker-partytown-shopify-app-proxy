@@ -2,12 +2,12 @@
   "name": "cloudflare-worker-partytown-shopify-app-proxy",
   "version": "1.0.0",
   "devDependencies": {
-    "wrangler": "2.0.28"
+    "wrangler": "^4.20.0"
   },
   "private": false,
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "wrangler publish"
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "itty-router": "^2.6.1"
